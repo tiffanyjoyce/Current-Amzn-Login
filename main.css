@@ -1,0 +1,91 @@
+#desc {
+    font-size: small;
+}
+#create {
+    color: rgba(0, 0, 0, 0.532);
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 20px;
+}
+.line {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+}
+.pop {
+    position: relative;
+    margin: 0 auto;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+}
+.container1 {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+.continue {
+    background-color: rgb(189, 135, 34);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.941), rgba(238, 172, 50, 0.881));
+    border-color: rgba(0, 0, 0, 0.567);
+    color: rgba(0, 0, 0, 0.729);
+}
+.continue:hover {
+    background-color: rgb(239, 157, 4);
+    border-color: rgba(0, 0, 0, 0.403);
+    color: rgba(0, 0, 0, 0.877);
+}
+.create-button {
+    background-color: rgb(232, 232, 232);
+    background-image: linear-gradient(white, rgb(218, 218, 218));
+    border-color: rgba(0, 0, 0, 0.503);
+    color: rgba(0, 0, 0, 0.723);
+    width: 95%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.create-button:hover{
+    background-color: rgb(212, 212, 212);
+    border-color: rgba(0, 0, 0, 0.261);
+    color: rgba(0, 0, 0, 0.696);
+}
+.container-fluid {
+    border: 2px rgba(0, 0, 0, 0.197);
+    border-style: hidden hidden solid hidden;
+}
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: static;
+    font-family: small;
+    max-width: 55%;
+}
+.copyright {
+    margin: auto auto 500px auto;
+    font-family: small;
+    color: rgba(0, 0, 0, 0.611);
+}
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page:hover {
+color: rgb(162, 87, 2);
+}
+.enter {
+    margin: 0;
+}
+.header {
+    font-weight: 600;
+    margin: 0 auto;
+}
